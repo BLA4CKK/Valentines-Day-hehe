@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jardinzito🌸</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="surpresa" class="hidden">
+        <h2>🎉 Parabéns Morrrr!!</h2>
+        <p>Você encontrou todas as cartinhas, yupiiii 💖</p>
+        <p>💝 Clique <a href="surpresa.html" target="_blank">aqui</a> para ver oque voce desbloqueou</p>
+    </div>
+
+
+    <div id="container">
+        <h1>🌱 Plantinha das Cartinhas Magiquitas 😯</h1>
+        <p>Pq não rega elas e decobre oq rola? 👀</p>
+        <img id="arvore" src="fase1.png" alt="Árvore do Amor">
+        <br>
+        <button onclick="regar()">🌧️ Regar</button>
+        <p id="status"></p>
+        <p id="progressoCartas"></p>
+
+
+        <div id="carta" class="hidden">
+            <h2>💌 Sua cartinha da vez hehe</h2>
+            <p id="mensagemCarta"></p>
+            <button onclick="reiniciar()">🌿 Plantar de novo</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
